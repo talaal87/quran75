@@ -49,25 +49,28 @@ class _SplashScreenState extends State<SplashScreen> {
                 height: 140,
               ),
             ).animate().fade(duration: 800.ms).scale(delay: 200.ms),
-            
+
             const SizedBox(height: 24),
-            
+
             // App Name
             Text(
-              'Quran75',
-              style: GoogleFonts.outfit(
-                fontSize: 42,
-                fontWeight: FontWeight.bold,
-                color: AppTheme.primaryColor,
-                letterSpacing: 1.5,
-              ),
-            ).animate().fade(delay: 500.ms, duration: 800.ms).slideY(begin: 0.3, end: 0),
-            
+                  'Quran75',
+                  style: GoogleFonts.outfit(
+                    fontSize: 42,
+                    fontWeight: FontWeight.bold,
+                    color: AppTheme.primaryColor,
+                    letterSpacing: 1.5,
+                  ),
+                )
+                .animate()
+                .fade(delay: 500.ms, duration: 800.ms)
+                .slideY(begin: 0.3, end: 0),
+
             const SizedBox(height: 8),
-            
+
             // Tagline
             Text(
-              'Master $75\%$ of the Quran',
+              'Master 75 of the Quran',
               style: GoogleFonts.outfit(
                 fontSize: 18,
                 color: AppTheme.textSecondary,
