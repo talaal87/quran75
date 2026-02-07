@@ -70,11 +70,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
             // Tagline
             Text(
-<<<<<<< HEAD
-              'Master 75 of the Quran',
-=======
               'Master 75% of the Quran',
->>>>>>> 1dca945b4e483f1e8fea7edcdf539a95c43c7b57
               style: GoogleFonts.outfit(
                 fontSize: 18,
                 color: AppTheme.textSecondary,
