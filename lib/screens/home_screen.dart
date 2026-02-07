@@ -52,10 +52,10 @@ class HomeScreen extends StatelessWidget {
                           color: AppTheme.primaryColor.withOpacity(0.1),
                           borderRadius: BorderRadius.circular(12),
                         ),
-                        child: const Icon(
-                          Icons.menu_book_rounded,
-                          color: AppTheme.primaryColor,
-                          size: 28,
+                        child: Image.asset(
+                          'assets/images/logo.png',
+                          width: 32,
+                          height: 32,
                         ),
                       ),
                       const SizedBox(width: 12),

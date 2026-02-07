@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'providers/word_provider.dart';
-import 'screens/home_screen.dart';
+import 'screens/splash_screen.dart';
 import 'theme/app_theme.dart';
 
 void main() {
@@ -19,7 +19,7 @@ class QuranApp extends StatelessWidget {
         title: 'Quran75',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.lightTheme, // Use our custom theme
-        home: const HomeScreen(),
+        home: const SplashScreen(),
       ),
     );
   }
